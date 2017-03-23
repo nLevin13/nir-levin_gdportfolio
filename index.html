@@ -97,7 +97,7 @@
 						<h2>Get In Touch</h2>
 						<p>As of spring, 2017, I am a junior at Westview High School. I was born here, but my parents immigrated from Israel. My favorite school subjects are physics and calculus, although I do take interest in any STEM field. I program software and play video games in my free time; I desire a career in computer science, preferably one that combines programming and physics. I also lead and take part in Westview's robotics and cybersecurity clubs.</p>
 						<div class="row">
-							<div class="8u 12u$(small)">
+							<!--<div class="8u 12u$(small)">
 								<form method="post" action="nyro9999@gmail.com">
 									<div class="row uniform 50%">
 										<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
@@ -110,7 +110,32 @@
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
 								</ul>
-							</div>
+							</div>-->
+                            <form method="post" action="https://formspree.io/nyro9999@gmail.com">
+									<div class="field half first">
+										<label for="name">Name</label>
+										<input type="text" name="name" placeholder="You" id="name" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="text" name="email" placeholder="name@email.website" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" placeholder="Why do you wish to contact me?" rows="4"></textarea>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="special" /></li>
+										<li><input type="reset" value="Reset" /></li>
+										<li>Powered by <a href="https://formspree.io">formspree.io</a></li>
+									</ul>
+
+								<!-- Helpful Tools -->
+
+									<input type="hidden" name="_subject" value="From Viscom Portfolio" />
+									<input type="hidden" name="_next" value="Viscom/#thankyou" />
+
+								</form>
 							<!--<div class="4u$ 12u$(small)">
 								<ul class="labeled-icons">
 									<li>
